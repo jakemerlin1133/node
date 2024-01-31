@@ -1,3 +1,7 @@
-const people = ['yoshi', 'ryu', 'chun-li', 'mario'];
+const {people, ages} = require('./people');
 
-console.log(people);
+console.log(people, ages);
+
+const os = require('os');
+
+console.log(os.platform(), os.homedir());
